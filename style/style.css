@@ -1,0 +1,234 @@
+* { margin: 0; padding: 0;}
+body {
+  background-color: #f5f5f5;
+}
+.nav {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100px;
+  box-shadow: -5px 2px 15px rgba(0,0,0,.5);
+  position: fixed;
+  z-index: 100;
+  box-shadow: 0 8px 10px  1px rgba(0,0,0,.14),
+              0 3px 14px  3px rgba(0,0,0,.12),
+              0 4px 15px  0px rgba(0,0,0,.20),
+}
+.tLogo {
+    position: absolute;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 100px;
+      /*box-shadow: 0px 5px 3px rgba(0,0,0,.5);*/
+}
+.logo {
+  margin-left: 56.5px;
+  margin-top: 8px;
+  width: 50%;
+}
+.menu {
+  width: 15%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-left: 0.01px solid #E0E0E0;
+  border-right: 0.01px solid #E0E0E0;
+  background-color: #F5f5f5;
+  color: #4db6ac;
+  cursor: pointer;
+  font-size: 19px;
+  transition: all 800ms ease;
+}
+.menu a {
+  text-decoration: none;
+  color: #4db6ac;
+}
+.menu:hover {
+  background-color: #EEE;
+  /*text-decoration: underline;*/
+    transition: all 800ms ease;
+}
+.home {
+  float: left;
+  margin-left:60px;
+  border: 0;
+
+  /*background-color: #F00;*/
+}
+.sobreNos {
+  float: left;
+
+}
+.trabalheConosco {
+  float: right;
+}
+
+.ouvidoria {
+  float: right;
+  margin-right: 60px;
+  border: 0;
+
+    /*background-color: #F00;*/
+}
+
+.slide {
+  float: left;
+  margin-top: 100px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /*background-color: #000;*/
+}
+.slide img {
+  /*margin-left: 5%;*/
+  width: 100%;
+  filter: grayscale(40%);
+  transition: all 800ms ease;
+  cursor: pointer;
+}
+.slide img:hover {
+  /*opacity: .9;*/
+  filter: grayscale(70%);
+  transition: all 800ms ease;
+}
+.descricaoImg {
+  position: absolute;
+  top: 0;
+  margin-left: 75%;
+  width: 20%;
+  height: 100%;
+  /*background-color: rgba(255, 255, 255, 0.2);*/
+  z-index: 20;
+  color: #FFF;
+}
+.descricaoImg header {
+  margin-top: 20px;
+  width: calc(100% - 10px);
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+.descricaoImg section {
+  width: calc(100% - 10px);
+  height: 320px;
+    background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.descricaoImg section p {
+  padding: 30px 20px;
+  font-size: 17px;
+  text-align: justify;
+    cursor: pointer;
+}
+
+.descricaoImg button {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: calc(100% - 10px);
+    height: 32px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.container {
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-top: 25px;
+}
+.container .left {
+  width: 38%;
+  height: 100%;
+  margin-left: 10%;
+  float: left;
+  /*background-color: #e0e0e0;*/
+}
+.container .right {
+  width: 38%;
+  height: 100%;
+  margin-right: 10%;
+  float: right;
+  /*background-color: #e0e0e0;*/
+}
+.aguarde {
+  margin-left: 40px;
+}
+.rodape {
+  float: left;
+  margin-top: 30px;
+  width: 80%;
+  height: 180px;
+  background-color: #37474f;
+  text-align: center;
+  padding: 0 10%;
+  box-shadow: 0 -4px 8px  1px rgba(0,0,0,.14),
+              0 -3px 7px  1px rgba(0,0,0,.12),
+              0 -4px 8px  0px rgba(0,0,0,.20)
+}
+.rodape .links {
+    width: 33%;
+    height: 100%;
+    /*background-color: #CCC;*/
+    float: left;
+    border-left: 1px solid #CCC;
+
+}
+.rodape .links div {
+  margin-top: 35px;
+}
+.rodape .links a {
+  display: block;
+  text-decoration: none;
+  color: #E0e0e0;
+  height: 30px;
+  font-size: 19px;
+  transition: all 480ms ease-in;
+}
+.rodape .links a:hover {
+  color: #999;
+}
+
+.rodape .contato {
+  color: #E0e0e0;
+}
+.rodape .contato h1{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 28px;
+  font-size: 24px;
+}
+.rodape .contato p {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.rodape .contato {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+.rodape .endereco {
+  width: 33%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #CCC;
+  color: #E0e0e0;
+}
+.rodape .endereco h1{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 28px;
+  font-size: 24px;
+}
+.rodape .endereco p {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 7px;
+}

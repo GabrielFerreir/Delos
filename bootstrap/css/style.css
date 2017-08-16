@@ -1,0 +1,30 @@
+
+
+/* NAV BAR */
+.navbar-collapse {
+  height: 100px;
+}
+.logo {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: calc(50% - 150px);
+}
+.logo img {
+  float: left;
+  margin-left:58px;
+  height: 45px;
+
+}
+.Home{
+
+}
+.Trabalhe{
+
+}
+.Ouvidoria{
+
+}
+.Sobre{
+
+}
