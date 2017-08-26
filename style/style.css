@@ -112,84 +112,13 @@ body {
 .aguarde {
   margin-left: 40px;
 }
-.rodape {
-  float: left;
-  margin-top: 30px;
-  width: 80%;
-  height: 180px;
-  background-color: #37474f;
-  text-align: center;
-  padding: 0 10%;
-  box-shadow: 0 -4px 8px  1px rgba(0,0,0,.14),
-              0 -3px 7px  1px rgba(0,0,0,.12),
-              0 -4px 8px  0px rgba(0,0,0,.20)
-}
-.rodape .links {
-    width: 31%;
-    height: 100%;
-    /*background-color: #CCC;*/
-    float: left;
-    border-left: 1px solid #CCC;
 
-}
-.rodape .links div {
-  margin-top: 35px;
-}
-.rodape .links a {
-  display: block;
-  text-decoration: none;
-  color: #E0e0e0;
-  height: 30px;
-  font-size: 19px;
-  transition: all 480ms ease-in;
-}
-.rodape .links a:hover {
-  color: #999;
-}
 
-.rodape .contato {
-  color: #E0e0e0;
-}
-.rodape .contato h1{
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 28px;
-  font-size: 24px;
-}
-.rodape .contato p {
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 10px;
-}
 
-.rodape .contato {
-  width: 31%;
-  height: 100%;
-  float: left;
-  border-left: 1px solid #CCC;
-  border-right: 1px solid #CCC;
-}
-.rodape .endereco {
-  width: 31%;
-  height: 100%;
-  float: left;
-  border-right: 1px solid #CCC;
-  color: #E0e0e0;
-}
-.rodape .endereco h1{
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 28px;
-  font-size: 24px;
-}
-.rodape .endereco p {
-  text-align: left;
-  margin-left: 50px;
-  margin-top: 7px;
-}
 
 /*Resposiv*/
   .slide {
     margin-top: 80px;
   }
 }
+

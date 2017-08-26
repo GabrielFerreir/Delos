@@ -1,0 +1,100 @@
+/*Rodape */
+.rodape{
+color: #e0e0e0;
+width: 100%;
+height: 200px;
+background: #37474f;
+text-align: center; 
+text-decoration: none;
+float: left;
+}
+.Links{
+    float: left;
+    width: 33.3%;
+    text-decoration: none; 
+    color: #e0e0e0;
+}
+.Links a{
+   text-decoration: none;
+   color: #e0e0e0;
+}
+.Contato{
+   float: left;
+    width: 33.3%; 
+   color: #e0e0e0; 
+}
+.Endereco{
+    float: left;
+    width: 33.3%;
+    color: #e0e0e0;
+}
+
+@media screen and (min-width: 480px) and (max-width:768px) {
+  .rodape{
+width: 100%;
+background: #37474f;
+text-align: center;
+height: 600px;
+}
+.Links{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.Contato{
+   display: block;
+    width: 100%; 
+    border-bottom: 1px solid #e0e0e0;
+}
+.Endereco{
+    display: block;
+    width: 100%;
+}
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+  .rodape{
+width: 100%;
+background: #37474f;
+text-align: center;
+height: 600px;
+}
+.Links{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.Contato{
+   display: block;
+    width: 100%; 
+    border-bottom: 1px solid #e0e0e0;
+}
+.Endereco{
+    display: block;
+    width: 100%;
+}
+}
+@media screen and (max-width: 320px) {
+.rodape{
+width: 100%;
+background: #37474f;
+text-align: center;
+height: 600px;
+}
+.Links{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+.Contato{
+   display: block;
+    width: 100%; 
+    border-bottom: 1px solid #e0e0e0;
+}
+.Endereco{
+    display: block;
+    width: 100%;
+}
+}
