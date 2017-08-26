@@ -2,29 +2,6 @@
 body {
   background-color: #f5f5f5;
 }
-.home {
-  float: left;
-  margin-left:60px;
-  border: 0;
-
-  /*background-color: #F00;*/
-}
-.sobreNos {
-  float: left;
-
-}
-.trabalheConosco {
-  float: right;
-}
-
-.contato {
-  float: right;
-  margin-right: 60px;
-  border: 0;
-
-    /*background-color: #F00;*/
-}
-
 .slide {
   float: left;
   margin-top: 100px;
@@ -45,55 +22,14 @@ body {
   filter: grayscale(70%);
   transition: all 800ms ease;
 }
-.descricaoImg {
-  position: absolute;
-  top: 0;
-  margin-left: 75%;
-  width: 20%;
-  height: 100%;
-  /*background-color: rgba(255, 255, 255, 0.2);*/
-  z-index: 20;
-  color: #FFF;
-}
-.descricaoImg header {
-  margin-top: 20px;
-  width: calc(100% - 10px);
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.3);
-  line-height: 40px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 20px;
-}
-.descricaoImg section {
-  width: calc(100% - 10px);
-  height: 320px;
-    background-color: rgba(255, 255, 255, 0.3);
-  margin-top: 10px;
-  cursor: pointer;
-}
-.descricaoImg section p {
-  padding: 30px 20px;
-  font-size: 17px;
-  text-align: justify;
-    cursor: pointer;
-}
 
-.descricaoImg button {
-    background-color: rgba(255, 255, 255, 0.3);
-    width: calc(100% - 10px);
-    height: 32px;
-    margin-top: 10px;
-    border: 0;
-    cursor: pointer;
-    color: #FFF;
-}
 
 .container {
   width: 100%;
-  height: 400px;
+  padding-bottom: 20px;
   float: left;
   margin-top: 25px;
+  overflow: hidden;
 }
 .container .left {
   width: 38%;
@@ -101,6 +37,9 @@ body {
   margin-left: 10%;
   float: left;
   /*background-color: #e0e0e0;*/
+}
+.container img {
+  width: 100%;
 }
 .container .right {
   width: 38%;
@@ -121,4 +60,3 @@ body {
     margin-top: 80px;
   }
 }
-
